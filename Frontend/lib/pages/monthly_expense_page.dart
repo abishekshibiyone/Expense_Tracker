@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class MonthlyExpensePage extends StatefulWidget {
+  const MonthlyExpensePage({super.key});
+
   @override
   _MonthlyExpensePageState createState() => _MonthlyExpensePageState();
 }
@@ -250,7 +252,7 @@ Expanded(
               cells: [
                 DataCell(Text(e['date'] ?? 'N/A')),
                 DataCell(
-                  Container(
+                  SizedBox(
                     width: 120, // Limit the width of the "Items" column
                     height: 100, // Set a fixed height to allow scrolling
                     child: SingleChildScrollView(

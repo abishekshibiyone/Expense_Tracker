@@ -1,5 +1,4 @@
 import 'package:expense_tracker/pages/daily_expense_page.dart';
-import 'package:expense_tracker/pages/monthly_expense_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {

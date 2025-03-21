@@ -4,6 +4,8 @@ import 'package:intl/intl.dart';
 import 'api_service.dart';
 
 class DailyExpensePage extends StatefulWidget {
+  const DailyExpensePage({super.key});
+
   @override
   _DailyExpensePageState createState() => _DailyExpensePageState();
 }
